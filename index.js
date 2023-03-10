@@ -1,19 +1,19 @@
 
 function introduction(name) {
-    console.log(`Hi, my name is ${name}!`);
+    return `Hi, my name is ${name}.`;
   }
   
   
   
   
   function introductionWithLanguage (name,language) {
-  console.log(`hi,my name is ${name}! and i am learning to programe in ${language}`)
+  return `Hi, my name is ${name} and I am learning to program in ${language}.`
   }
   
   
   
-  function introductionWithLanguageOptional (name,language = "javascript"){
-      console.log(`hi,my name is ${name}!and am learning to programme ${language}`)
+  function introductionWithLanguageOptional (name, language = "JavaScript"){
+      return`Hi, my name is ${name} and I am learning to program in ${language}.`
   }
   
   introduction("ronald")
